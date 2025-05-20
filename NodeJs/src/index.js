@@ -25,7 +25,7 @@ async function RpcServer() {
 /// RPC ClientSide ///
 
 async function RpcClient() {
-  const accesToken = "zlfeW9lsoRJBb1jTQki3";
+  const accesToken = "NiOnztfbYn2NEsRBClwh";
   const method = "getCurrentTime";
 
   const myObj = { method, params: {} };
@@ -35,5 +35,5 @@ async function RpcClient() {
   console.log(response.data);
 }
 
-// RpcClient();
-RpcServer();
+RpcClient();
+// RpcServer();
